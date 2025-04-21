@@ -1,0 +1,94 @@
+.task-table {
+    /* border: 1px solid black; */
+    max-width: 1000px;
+    width: 100%;
+}
+
+/* .task-table th {
+    background-color: aqua;
+}
+
+.task-table td {
+    background-color: yellow;
+} */
+
+.header {
+    background-color: #F5CF1B;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.content-left {
+    max-width: 35%;
+    width: 100%;
+}
+
+.task-form {
+    border: 1px solid black;
+    box-shadow: 1px;
+    margin-top: 14px;
+}
+
+.task-edit-form {
+    border: 1px solid black;
+    box-shadow: 1px;
+    margin-top: 14px;
+}
+
+.content-right {
+    max-width: 65%;
+    width: 100%;
+}
+
+.date-write-start {
+    max-width: 150px;
+    width: 100%;
+    margin-left: 60px;
+}
+
+.date-write-end {
+    max-width: 150px;
+    width: 100%;
+    margin-left: 16px;
+}
+
+.btn-submit {
+    max-width: 100px;
+    width: 100%;
+    background-color: #F5CF1B;
+    margin-left: 150px;
+    margin-bottom: 5px;
+}
+
+.start-date-label {
+    margin-right: 50px;
+}
+
+.end-date-label {
+    margin-right: 5px;
+}
+
+.error {
+    display: none;
+}
+
+.status-select {
+    margin-left: 52px;
+    max-width: 36%;
+    width: 100%;
+}
+
+.task-table {
+    margin-bottom: 30px;
+}
+
+.icon-button {
+    cursor: pointer;
+}
+
+.task-edit-form {
+    display: none;
+}
